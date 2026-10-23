@@ -21,6 +21,7 @@ h3{font-size:17px;margin:0 0 4px}
 .stream img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#000}
 .stream div{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
 .stream p{margin:0;color:var(--muted);font-size:15px;flex:1}
+.stream small{display:block;color:var(--muted);font-size:13.5px}.stream small:empty{display:none}
 .btn{display:inline-block;padding:9px 14px;border-radius:8px;background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;font-size:15px}
 .btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--rule)}
 .badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;color:#fff;background:var(--live);border-radius:4px;padding:1px 7px;margin-right:6px;vertical-align:2px}
@@ -39,12 +40,34 @@ nav.top a{text-decoration:none}
 footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--rule);color:var(--muted);font-size:14px}
 footer nav a{margin-right:14px}
 </style></head><body><main>
-<nav class="top"><a href="/"><b>NESO Now</b></a><a href="/map/">States</a><a href="/figures/">Latest figures</a><a href="/learn/">Lessons</a><a href="/archive/">Every day</a><a href="https://www.youtube.com/@nesonow/streams">Watch live</a></nav>
+<nav class="top"><a href="/"><b>NESO Now</b></a><a href="/schedule/">Program guide</a><a href="/map/">States</a><a href="/figures/">Latest figures</a><a href="/learn/">Lessons</a><a href="/archive/">Every day</a><a href="https://www.youtube.com/@nesonow/streams">Watch live</a></nav>
 <header><p class="kicker">Lesson · from Delta Circle on NESO Now</p><h1>Sizing a market from the bottom up</h1></header><div class="item" style="font-size:18px"><p>Here is a short lesson. Bottom-up market sizing starts from real counts of customers and prices in your area, rather than a slice of a national headline number.</p><p>A capital stack is every source of money in a project, from senior debt to equity, in the order each gets repaid. When the sources do not add up to the cost, the shortfall is called the gap.</p></div><h2>Where this comes from</h2><ul class="plain"><li><a href="https://nesohq.com/">nesohq.com</a></li></ul><p class="src">Last aired Friday, October 23, 2026. Each point repeats the page it is drawn from; that page governs.</p><div class="cta"><p><b>This is read live, around the clock.</b> The three NESO Now streams keep reporting new figures, federal rules, funding and bids as they are published.</p><a class="btn" href="https://www.youtube.com/watch?v=TjsArG674Is"><span class="badge">LIVE</span>Delta Circle</a><a class="btn ghost" href="https://www.youtube.com/watch?v=4TKeFn0Offg"><span class="badge">LIVE</span>NESO</a><a class="btn ghost" href="https://www.youtube.com/watch?v=s8cUJGltXlg"><span class="badge">LIVE</span>Bird&#x27;s Eye</a><a class="btn ghost" href="https://www.youtube.com/@nesonow?sub_confirmation=1">Subscribe</a></div>
-<footer><nav><a href="/">Today</a><a href="/map/">States</a><a href="/figures/">Latest figures</a><a href="/learn/">Lessons</a><a href="/archive/">Every day</a></nav>
+<footer><nav><a href="/">Today</a><a href="/schedule/">Program guide</a><a href="/map/">States</a><a href="/figures/">Latest figures</a><a href="/learn/">Lessons</a><a href="/archive/">Every day</a></nav>
 <p>NESO Now is three live streams on YouTube from NESO: NESO, Bird's Eye and Delta Circle. The voice is computer-generated.
 Every line on this site repeats what aired or what an agency published, and links to the record it came from; that record governs. Nothing here is legal,
 tax, engineering or investment advice. <a href="https://nesohq.com/?source=now-site">nesohq.com</a> ·
 <a href="https://birdseye.nesohq.com/?source=now-site">birdseye.nesohq.com</a> · <a href="https://deltacircle.nesohq.com/?source=now-site">deltacircle.nesohq.com</a> ·
 <a href="https://www.youtube.com/@nesonow?sub_confirmation=1">Subscribe on YouTube</a></p></footer>
-</main></body></html>
+</main><script>(function(){
+var els=document.querySelectorAll('[data-guide-now],[data-guide-next],[data-guide-when]');if(!els.length)return;
+function et(){var p={};new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour12:false,hour:'2-digit',minute:'2-digit',second:'2-digit'})
+ .formatToParts(new Date()).forEach(function(x){p[x.type]=x.value});return (+p.hour%24)*60+(+p.minute)+(+p.second)/60}
+function fmt(m){m=Math.round(m)%1440;var h=Math.floor(m/60),mm=m%60;return (h%12||12)+':'+(mm<10?'0':'')+mm+' '+(h<12?'AM':'PM')}
+function find(c,now){var into=now%c.wheel,turn=Math.floor(now/c.wheel),i=0;for(var k=0;k<c.blocks.length;k++)if(c.blocks[k][0]<=into)i=k;return{i:i,base:turn*c.wheel}}
+function next(c,name,now){var best=null;for(var d=0;d<2;d++)for(var t=0;t*c.wheel<1440;t++)c.blocks.forEach(function(b){
+ var m=d*1440+t*c.wheel+b[0];if(b[2]===name&&m>now&&(t*c.wheel+b[0])<1440&&(best===null||m<best))best=m});return best}
+fetch('/schedule/program.json').then(function(r){return r.json()}).then(function(P){
+ function draw(){var now=et();
+  [].forEach.call(document.querySelectorAll('[data-guide-now]'),function(e){var c=P[e.getAttribute('data-guide-now')];if(!c)return;
+   var f=find(c,now);e.textContent='On now: '+c.blocks[f.i][2]});
+  [].forEach.call(document.querySelectorAll('[data-guide-next]'),function(e){var c=P[e.getAttribute('data-guide-next')];if(!c)return;
+   var f=find(c,now),j=f.i;for(var k=0;k<c.blocks.length;k++){j=(j+1)%c.blocks.length;if(c.blocks[j][2]!=='Commercial Break')break}
+   var m=f.base+c.blocks[j][0]+(j<=f.i?c.wheel:0);e.textContent='Next: '+c.blocks[j][2]+', '+fmt(m)+' ET'});
+  [].forEach.call(document.querySelectorAll('[data-guide-when]'),function(e){var a=e.getAttribute('data-guide-when').split('|'),c=P[a[0]];if(!c)return;
+   var m=next(c,a[1],now);if(m===null)return;var mins=Math.round(m-now);
+   var h=Math.floor(mins/60),r=mins%60;
+   e.textContent='Next on at '+fmt(m)+' ET'+(m>=1440?', tomorrow':mins<=0?'':', in '+(h?h+(h>1?' hours':' hour')+(r?' '+r+' min':''):r+' minutes'))});
+ }
+ draw();setInterval(draw,30000);
+}).catch(function(){});
+})();</script></body></html>
