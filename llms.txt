@@ -1,0 +1,21 @@
+# NESO Now
+
+> Three live streams on YouTube read the latest government data on jobs, housing and construction, new federal
+> rules, open federal funding and public bids around the clock, with a source for every line.
+
+NESO Now is published by NESO HQ LLC (https://nesohq.com/). Site: https://now.nesohq.com/ · Streams:
+https://www.youtube.com/@nesonow/streams
+
+## What is on it
+
+- **Today's figures:** official government figures on jobs, construction, building permits and main-street
+  business, each with its source.
+- **Federal rules:** new federal rules and notices as they publish.
+- **Funding and bids:** open federal funding and public bids.
+- **State by state:** https://now.nesohq.com/map/
+- **The daily archive:** one page per day, for example https://now.nesohq.com/2026-11-20/
+
+The voices on the streams are computer-generated. Figures come from the agencies that publish them; the agency's
+own release governs.
+
+Questions: hello@nesohq.com.
