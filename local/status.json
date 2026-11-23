@@ -1,0 +1,601 @@
+{
+ "at": "2026-11-23T17:04:51.204839+00:00",
+ "states": {
+  "TN": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Tennessee Emergency Management Agency",
+     "site": "https://www.tn.gov/tema.html",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Memphis",
+     "site": "https://memphistn.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Nashville (Metro)",
+     "site": "https://www.nashville.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Knoxville",
+     "site": "https://www.knoxvilletn.gov/",
+     "feed": "https://www.knoxvilletn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 7,
+     "error": ""
+    },
+    {
+     "name": "Chattanooga",
+     "site": "https://chattanooga.gov/",
+     "feed": "https://chattanooga.gov/rss.xml",
+     "how": "the usual address",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Clarksville",
+     "site": "https://www.clarksvilletn.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Murfreesboro",
+     "site": "https://www.murfreesborotn.gov/",
+     "feed": "https://www.murfreesborotn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 14,
+     "error": ""
+    },
+    {
+     "name": "Franklin",
+     "site": "https://www.franklintn.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Jackson",
+     "site": "https://www.jacksontn.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Shelby County",
+     "site": "https://www.shelbycountytn.gov/",
+     "feed": "https://www.shelbycountytn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 13,
+     "error": ""
+    },
+    {
+     "name": "Hamilton County",
+     "site": "https://www.hamiltontn.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Knox County",
+     "site": "https://www.knoxcounty.org/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "MS": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Mississippi Emergency Management Agency",
+     "site": "https://www.msema.org/",
+     "feed": "https://www.msema.org/rss.xml",
+     "how": "the usual address",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Jackson",
+     "site": "https://www.jacksonms.gov/",
+     "feed": null,
+     "how": "its feed link didn't read",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Gulfport",
+     "site": "https://gulfport-ms.gov/",
+     "feed": "https://gulfport-ms.gov/rss.xml",
+     "how": "the usual address",
+     "posts": 20,
+     "error": ""
+    },
+    {
+     "name": "Southaven",
+     "site": "https://www.southaven.org/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Hattiesburg",
+     "site": "https://www.hattiesburgms.com/",
+     "feed": "https://www.hattiesburgms.com/feed/",
+     "how": "listed on the homepage",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Biloxi",
+     "site": "https://biloxi.ms.us/",
+     "feed": "https://biloxi.ms.us/feed/",
+     "how": "listed on the homepage",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Tupelo",
+     "site": "https://www.tupeloms.gov/",
+     "feed": "https://www.tupeloms.gov/feed",
+     "how": "listed on the homepage",
+     "posts": 6,
+     "error": ""
+    },
+    {
+     "name": "Olive Branch",
+     "site": "https://www.obms.us/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Ridgeland",
+     "site": "https://www.ridgelandms.org/",
+     "feed": "https://www.ridgelandms.org/feed/",
+     "how": "listed on the homepage",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "DeSoto County",
+     "site": "https://www.desotocountyms.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Hinds County",
+     "site": "https://www.hindscountyms.com/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 401: Unauthorized)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Harrison County",
+     "site": "https://harrisoncountyms.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "KY": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Kentucky Emergency Management",
+     "site": "https://www.kyem.ky.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Louisville Metro",
+     "site": "https://louisvilleky.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Lexington",
+     "site": "https://www.lexingtonky.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Bowling Green",
+     "site": "https://www.bgky.org/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Owensboro",
+     "site": "https://www.owensboro.org/",
+     "feed": "https://www.owensboro.org/rss.xml",
+     "how": "the usual address",
+     "posts": 20,
+     "error": ""
+    },
+    {
+     "name": "Covington",
+     "site": "https://www.covingtonky.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Georgetown",
+     "site": "https://www.georgetownky.gov/",
+     "feed": "https://www.georgetownky.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 3,
+     "error": ""
+    },
+    {
+     "name": "Frankfort",
+     "site": "https://www.frankfort.ky.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Warren County",
+     "site": "https://www.warrencountyky.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Kenton County",
+     "site": "https://www.kentoncounty.org/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Boone County",
+     "site": "https://www.boonecountyky.org/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "CT": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Connecticut Division of Emergency Management and Homeland Security",
+     "site": "https://portal.ct.gov/demhs",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Bridgeport",
+     "site": "https://www.bridgeportct.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "New Haven",
+     "site": "https://www.newhavenct.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Hartford",
+     "site": "https://www.hartfordct.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Stamford",
+     "site": "https://www.stamfordct.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Waterbury",
+     "site": "https://www.waterburyct.org/",
+     "feed": "https://www.waterburyct.org/qcontent/NewsFeed.ashx?ChanID=3033",
+     "how": "listed on the homepage",
+     "posts": 5,
+     "error": ""
+    },
+    {
+     "name": "Norwalk",
+     "site": "https://www.norwalkct.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Danbury",
+     "site": "https://www.danbury-ct.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "New Britain",
+     "site": "https://www.newbritainct.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Greenwich",
+     "site": "https://www.greenwichct.gov/",
+     "feed": "https://www.greenwichct.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 20,
+     "error": ""
+    },
+    {
+     "name": "West Hartford",
+     "site": "https://www.westhartfordct.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "AL": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Alabama Emergency Management Agency",
+     "site": "https://ema.alabama.gov/",
+     "feed": "https://ema.alabama.gov/feed/",
+     "how": "listed on the homepage",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Birmingham",
+     "site": "https://www.birminghamal.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Huntsville",
+     "site": "https://www.huntsvilleal.gov/",
+     "feed": "https://www.huntsvilleal.gov/feed/",
+     "how": "the usual address",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Montgomery",
+     "site": "https://www.montgomeryal.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Mobile",
+     "site": "https://www.cityofmobile.org/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Tuscaloosa",
+     "site": "https://www.tuscaloosa.com/",
+     "feed": "https://www.tuscaloosa.com/feed/",
+     "how": "the usual address",
+     "posts": 20,
+     "error": ""
+    },
+    {
+     "name": "Hoover",
+     "site": "https://www.hooveralabama.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Auburn",
+     "site": "https://www.auburnalabama.org/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Dothan",
+     "site": "https://www.dothan.org/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Jefferson County",
+     "site": "https://www.jccal.org/",
+     "feed": "https://www.jccal.org/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 11,
+     "error": ""
+    },
+    {
+     "name": "Madison County",
+     "site": "https://www.madisoncountyal.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Mobile County",
+     "site": "https://www.mobilecountyal.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "AR": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Arkansas Department of Public Safety (emergency management and state police news)",
+     "site": "https://dps.arkansas.gov/emergency-management/adem/",
+     "feed": "https://dps.arkansas.gov/feed/",
+     "how": "listed on the homepage",
+     "posts": 1,
+     "error": ""
+    },
+    {
+     "name": "Little Rock",
+     "site": "https://www.littlerock.gov/",
+     "feed": "https://littlerock.gov/feed/",
+     "how": "listed on the homepage",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Fort Smith",
+     "site": "https://www.fortsmithar.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Fayetteville",
+     "site": "https://www.fayetteville-ar.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Springdale",
+     "site": "https://www.springdalear.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 406: Not Acceptable)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Jonesboro",
+     "site": "https://www.jonesboro.org/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Rogers",
+     "site": "https://www.rogersar.gov/",
+     "feed": "https://www.rogersar.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 1,
+     "error": ""
+    },
+    {
+     "name": "Conway",
+     "site": "https://www.conwayarkansas.gov/",
+     "feed": "https://www.conwayarkansas.gov/feed/",
+     "how": "listed on the homepage",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Bentonville",
+     "site": "https://www.bentonvillear.com/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Pulaski County",
+     "site": "https://pulaskicounty.net/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Benton County",
+     "site": "https://bentoncountyar.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Washington County",
+     "site": "https://www.washingtoncountyar.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  }
+ }
+}
