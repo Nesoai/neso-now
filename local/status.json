@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T22:05:49.639207+00:00",
+ "at": "2026-11-23T23:05:53.244002+00:00",
  "states": {
   "TN": {
    "alerts": 0,
@@ -262,7 +262,7 @@
      "site": "https://www.georgetownky.gov/",
      "feed": "https://www.georgetownky.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
-     "posts": 3,
+     "posts": 2,
      "error": ""
     },
     {
@@ -749,7 +749,7 @@
      "feed": "https://www.cityoflakecharles.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 4,
-     "error": "https://www.cityoflakecharles.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 429: Too Many Requests"
+     "error": ""
     },
     {
      "name": "Kenner",
@@ -1205,7 +1205,7 @@
      "feed": "https://www.wake.gov/rss.xml",
      "how": "the usual address",
      "posts": 10,
-     "error": ""
+     "error": "https://www.wake.gov/rss.xml: not readable XML (not well-formed (invalid token): line 1, column 0; after mending: not well-formed (invalid token): line 1, colum"
     }
    ]
   }
