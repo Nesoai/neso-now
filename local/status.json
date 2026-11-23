@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T20:05:26.112770+00:00",
+ "at": "2026-11-23T21:05:20.047063+00:00",
  "states": {
   "TN": {
    "alerts": 0,
@@ -780,7 +780,7 @@
      "site": "https://www.jeffparish.gov/",
      "feed": "https://www.jeffparish.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
-     "posts": 3,
+     "posts": 4,
      "error": ""
     },
     {
@@ -1006,7 +1006,7 @@
    ]
   },
   "FL": {
-   "alerts": 13,
+   "alerts": 14,
    "alerts_error": "",
    "sites": [
     {
@@ -1108,7 +1108,7 @@
    ]
   },
   "NC": {
-   "alerts": 2,
+   "alerts": 6,
    "alerts_error": "",
    "sites": [
     {
@@ -1205,7 +1205,7 @@
      "feed": "https://www.wake.gov/rss.xml",
      "how": "the usual address",
      "posts": 10,
-     "error": "https://www.wake.gov/rss.xml: not readable XML (not well-formed (invalid token): line 1, column 0; after mending: not well-formed (invalid token): line 1, colum"
+     "error": ""
     }
    ]
   }
