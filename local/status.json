@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T21:05:20.047063+00:00",
+ "at": "2026-11-23T22:05:49.639207+00:00",
  "states": {
   "TN": {
    "alerts": 0,
@@ -749,7 +749,7 @@
      "feed": "https://www.cityoflakecharles.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 4,
-     "error": ""
+     "error": "https://www.cityoflakecharles.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
      "name": "Kenner",
