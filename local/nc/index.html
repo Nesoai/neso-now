@@ -1,0 +1,171 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>North Carolina local news: cities, counties and weather alerts · NESO Now</title><meta name="description" content="The latest from North Carolina&#x27;s city and county websites, the state emergency management agency and National Weather Service alerts by county.">
+<link rel="canonical" href="https://now.nesohq.com/local/nc/">
+<meta property="og:title" content="North Carolina local news: cities, counties and weather alerts · NESO Now"><meta property="og:description" content="The latest from North Carolina&#x27;s city and county websites, the state emergency management agency and National Weather Service alerts by county.">
+<meta property="og:url" content="https://now.nesohq.com/local/nc/"><meta property="og:type" content="website"><meta property="og:site_name" content="NESO Now">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="theme-color" content="#0F0B14">
+<style>
+:root{--bg:#0F0B14;--card:#1A1422;--card2:#1D1426;--ink:#F4EEF8;--muted:#B9AEC6;--rule:#2A2135;--rule2:#3A2E48;--accent:#D9B8F7;
+--accent-ink:#0F0B14;--gold:#E7B84B;--live:#D62F2F;--wx:#FF8A8A;--quake:#F2C26B;--tv:#9FD8FF;--agency:#9FE3C6}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1200px;margin:0 auto;padding:28px 16px 64px}
+a{color:var(--accent);text-decoration:none}a:hover{color:#F1E2FF;text-decoration:underline}
+small,.src{color:var(--muted);font-size:14px}
+h1,h2,h3,.disp{font-family:"Space Grotesk",Inter,system-ui,sans-serif;letter-spacing:-.01em}
+.kicker{margin:0;color:var(--gold);font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+h1{font-weight:700;font-size:clamp(30px,5vw,46px);line-height:1.08;margin:6px 0 10px;text-wrap:balance}
+h2{font-weight:700;font-size:clamp(23px,3.4vw,30px);line-height:1.2;margin:44px 0 14px}
+h3{font-size:17px;margin:0 0 4px}
+.lead{font-size:18px;color:var(--muted);margin:0 0 18px;max-width:62ch}
+.topbar{border-bottom:1px solid var(--rule)}
+.topbar .in{max-width:1200px;margin:0 auto;padding:14px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 26px}
+.logo{display:flex;align-items:center;gap:10px;color:var(--ink);font:700 23px/1 "Space Grotesk",Inter,sans-serif;letter-spacing:-.02em}
+.logo:hover{text-decoration:none;color:var(--ink)}
+.dot{width:11px;height:11px;border-radius:50%;background:#FF5A5A;box-shadow:0 0 0 4px rgba(255,90,90,.22)}
+nav.top{display:flex;flex-wrap:wrap;gap:4px 20px;font-size:15px;font-weight:500;flex:1 1 auto}
+nav.top a{color:var(--ink)}
+.btn{display:inline-block;padding:10px 16px;border-radius:999px;background:var(--gold);color:#1A1206;text-decoration:none;font-weight:700;font-size:15px}
+.btn:hover{text-decoration:none;color:#1A1206;filter:brightness(1.06)}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--rule2)}
+.strip{background:var(--card2);border-bottom:1px solid var(--rule)}
+.strip .in{max-width:1200px;margin:0 auto;padding:9px 16px;display:flex;align-items:center;gap:14px;overflow:hidden;white-space:nowrap;font-size:14px}
+.strip .in span.sep{color:#5E5070}.strip b{font-weight:600}
+.strip .tick{flex:1;min-width:0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent);mask-image:linear-gradient(90deg,transparent,#000 24px,#000 calc(100% - 24px),transparent)}
+.strip .track{display:inline-flex;animation:tick 55s linear infinite}.strip .run{display:inline-flex;align-items:center;gap:14px;padding-right:14px}
+.strip .tick:hover .track,.strip .tick:focus-within .track{animation-play-state:paused}
+@keyframes tick{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.strip .track{animation:none}.strip .run[aria-hidden]{display:none}}
+.badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;color:#fff;background:var(--live);border-radius:4px;padding:3px 8px;margin-right:6px;vertical-align:2px}
+.tag{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.tag.nws{color:var(--wx)}.tag.quake{color:var(--quake)}.tag.tv{color:var(--tv)}.tag.fema,.tag.agency,.tag.nhc{color:var(--agency)}
+.hero{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
+.hero .main{flex:999 1 560px;min-width:0}
+.hero aside{flex:1 1 300px;display:flex;flex-direction:column;gap:12px}
+.player{position:relative;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:#000;border:2px solid #4A3B5E;box-shadow:0 0 0 4px rgba(217,184,247,.06),0 14px 40px rgba(0,0,0,.4);margin:0 0 14px}
+.player .poster{position:absolute;inset:0;width:100%;height:100%;padding:0;border:0;background:#000;cursor:pointer}
+.player .poster img{width:100%;height:100%;object-fit:cover;display:block}
+.player .pbtn{position:absolute;left:50%;top:50%;width:76px;height:54px;margin:-27px 0 0 -38px;border-radius:14px;background:#FF0000;display:grid;place-items:center;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+.player .poster:hover .pbtn{filter:brightness(1.1)}.player .plive{position:absolute;left:14px;top:14px;background:var(--live);color:#fff;font:700 12px/1 Inter,sans-serif;letter-spacing:.08em;padding:6px 9px;border-radius:5px}
+.player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.onnow{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;font-size:15px}
+.onnow b{font-family:"Space Grotesk",Inter,sans-serif;font-size:19px}
+.chan{display:flex;gap:14px;padding:14px;background:var(--card);border:1px solid var(--rule);border-radius:16px;color:var(--ink)}
+.chan:hover{text-decoration:none;color:var(--ink);border-color:var(--rule2)}
+.chan .bar{width:6px;border-radius:3px;flex:0 0 6px}
+.chan b{font-size:17px}.chan span{display:block}.chan .tl{color:var(--muted);font-size:14px}.chan small{color:var(--gold);font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.card b{font-size:17px;line-height:1.3}a.hl{color:var(--ink)}a.hl:hover{color:#F1E2FF;text-decoration:underline}.card ol{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:10px}
+.card.q .qq{font:600 23px/1.18 "Space Grotesk",Inter,sans-serif}
+.card.q p{margin:0;color:var(--muted)}
+.card.q .foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:center;margin-top:auto}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.tile{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:16px}
+.tile h3 a{color:var(--ink)}.tile p{margin:6px 0;color:var(--muted);font-size:15px}
+.shorts{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.short{display:flex;flex-direction:column;gap:8px;color:var(--ink);font-size:14px;line-height:1.3}
+.short:hover{text-decoration:none;color:var(--ink)}
+.short img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:14px;background:var(--card);display:block}
+.shead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px}
+.shead h2{margin-bottom:0}
+.item{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:14px 16px;margin:10px 0}
+.item p{margin:0 0 6px}.item small a{margin-left:4px}
+ul.plain{padding-left:20px}ul.plain li{margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;padding:0;list-style:none}
+.grid li{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:12px 14px}
+.grid a{font-weight:600}
+.streams{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:18px 0 8px}
+.stream{background:var(--card);border:1px solid var(--rule);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.stream img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#000}
+.stream div{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.stream p{margin:0;color:var(--muted);font-size:15px;flex:1}
+.stream small{display:block;color:var(--muted);font-size:13.5px}.stream small:empty{display:none}
+.cta,.trust{margin:30px 0 0;padding:22px;border-radius:18px;background:var(--card2);border:1px solid var(--rule)}
+.cta p{margin:0 0 10px}.cta .btn{margin:4px 8px 4px 0}
+.trust{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+.trust p{margin:0;color:var(--muted);max-width:64ch}.trust h2{margin:0 0 6px;font-size:24px}
+table{color:var(--ink)}
+footer.site{border-top:1px solid var(--rule);margin-top:56px}
+footer.site .in{max-width:1200px;margin:0 auto;padding:22px 16px;color:var(--muted);font-size:14px}
+footer.site nav a{margin-right:14px}
+section.band{margin:30px 0 0;padding:20px 22px 24px;border-radius:22px;background:#140F1B;border:1px solid var(--rule);border-top:4px solid var(--band,#3A2E48)}
+section.band:nth-of-type(even){background:#18111F}
+section.band h2{margin:0 0 14px}section.band .shead{margin:0 0 14px}section.band .shead h2{margin:0}
+section.band .bk{display:block;margin:0 0 4px;color:var(--band);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.strip a.hl{color:var(--ink)}.strip a.hl:hover{color:#F1E2FF}
+.yt{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:7px 13px;border-radius:999px;background:#FF0000;color:#fff;font-weight:500;font-size:14px}
+.yt:hover{text-decoration:none;color:#fff;filter:brightness(1.08)}.yt svg{flex:0 0 auto}
+.shows{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.show{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--rule);border-radius:16px;overflow:hidden;color:var(--ink)}
+.show:hover{text-decoration:none;color:var(--ink);border-color:var(--rule2)}
+.show img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#000}
+.show div{padding:12px 14px 14px;display:flex;flex-direction:column;gap:4px}.show small{color:var(--gold)}
+.rx{display:none;gap:6px;align-items:center;margin-top:6px}body.rx-on .rx{display:flex}
+.rx button{font:inherit;font-size:15px;line-height:1;padding:6px 9px;border-radius:999px;border:1px solid var(--rule2);background:transparent;color:var(--ink);cursor:pointer}
+.rx button:hover{border-color:var(--accent)}.rx button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.rx small{margin-left:4px}.card ol li .rx{margin-top:4px}
+.deep{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.deep a.card{color:var(--ink)}.deep a.card:hover{text-decoration:none;border-color:var(--gold)}.deep .go{color:var(--gold);font-weight:600;margin-top:auto}
+@media (max-width:640px){section.band{padding:16px 14px 20px;border-radius:18px}nav.top{order:3;flex-basis:100%;gap:4px 16px}.hero aside{flex-basis:100%}}
+</style></head><body>
+<header class="topbar"><div class="in"><a class="logo" href="/"><span class="dot" aria-hidden="true"></span>NESO Now</a>
+<nav class="top" aria-label="Main"><a href="/breaking/">Breaking now</a><a href="https://www.youtube.com/@nesonow/streams">Watch live</a><a href="/schedule/">Program guide</a><a href="/map/">States</a><a href="/local/">Local</a><a href="/figures/">The numbers</a><a href="/learn/">Lessons</a><a href="/archive/">Every day</a></nav>
+<a class="yt" href="https://www.youtube.com/@nesonow?sub_confirmation=1"><svg width="22" height="16" viewBox="0 0 22 16" aria-hidden="true"><rect width="22" height="16" rx="4" fill="#fff"/><path d="M9 4.5v7l6-3.5z" fill="#FF0000"/></svg>Subscribe</a></div></header>
+<div class="strip"><div class="in"><span class="badge">BREAKING</span><div class="tick"><div class="track"><span class="run"><span><a class="hl" href="https://www.nbcnews.com/pop-culture/pop-culture-news/bo-derek-john-corbett-adopted-gene-hackmans-dog-bear-actors-death-rcna610884" rel="nofollow noopener"><b>Bo Derek and John Corbett adopted Gene Hackman&#x27;s dog, Bear, after actor&#x27;s death</b></a> · <span class="src">NBC News</span></span><span class="sep" aria-hidden="true">●</span><span><a class="hl" href="https://www.nbcnews.com/politics/trump-administration/trump-nvidia-board-reinstates-jensen-huang-rcna610882" rel="nofollow noopener"><b>Trump says he spoke &#x27;directly and indirectly&#x27; with Nvidia&#x27;s board about reinstating Jensen Huang</b></a> · <span class="src">NBC News</span></span><span class="sep" aria-hidden="true">●</span><span><a class="hl" href="https://www.nbcnews.com/pop-culture/pop-culture-news/russell-brand-wife-laura-says-honor-prison-rules-backlash-rcna610846" rel="nofollow noopener"><b>Russell Brand&#x27;s wife says she&#x27;ll &#x27;honor&#x27; prison rules after backlash</b></a> · <span class="src">NBC News</span></span> <a href="/breaking/">All of it</a><span class="sep" aria-hidden="true">●</span></span><span class="run" aria-hidden="true"><span><a class="hl" href="https://www.nbcnews.com/pop-culture/pop-culture-news/bo-derek-john-corbett-adopted-gene-hackmans-dog-bear-actors-death-rcna610884" rel="nofollow noopener"><b>Bo Derek and John Corbett adopted Gene Hackman&#x27;s dog, Bear, after actor&#x27;s death</b></a> · <span class="src">NBC News</span></span><span class="sep" aria-hidden="true">●</span><span><a class="hl" href="https://www.nbcnews.com/politics/trump-administration/trump-nvidia-board-reinstates-jensen-huang-rcna610882" rel="nofollow noopener"><b>Trump says he spoke &#x27;directly and indirectly&#x27; with Nvidia&#x27;s board about reinstating Jensen Huang</b></a> · <span class="src">NBC News</span></span><span class="sep" aria-hidden="true">●</span><span><a class="hl" href="https://www.nbcnews.com/pop-culture/pop-culture-news/russell-brand-wife-laura-says-honor-prison-rules-backlash-rcna610846" rel="nofollow noopener"><b>Russell Brand&#x27;s wife says she&#x27;ll &#x27;honor&#x27; prison rules after backlash</b></a> · <span class="src">NBC News</span></span> <a href="/breaking/">All of it</a><span class="sep" aria-hidden="true">●</span></span></div></div></div></div><main>
+<style>
+.lmap svg{width:100%;height:auto;max-width:900px;display:block;margin:6px auto 0}
+.lmap path{fill:#241B2E;stroke:#0F0B14;stroke-width:1}.lmap a path{fill:#5A3F7A;cursor:pointer}
+.lmap a.wx path{fill:#8C3B4A}.lmap a:hover path,.lmap a:focus path{fill:var(--gold)}
+.lmap text{font:700 15px Inter,sans-serif;fill:#fff;pointer-events:none;text-anchor:middle}
+.lkey{display:flex;flex-wrap:wrap;gap:6px 18px;color:var(--muted);font-size:14px;margin:8px 0 0}
+.lkey i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.alert{border-left:4px solid var(--wx)}.alert.Minor,.alert.Unknown{border-left-color:var(--rule2)}.alert.Moderate{border-left-color:var(--quake)}
+.places{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.place ol{margin:4px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:8px}.place li small{display:block}
+.place .none{color:var(--muted);font-size:15px;margin:0}.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 0;padding:0;list-style:none}
+.chips li{background:var(--card);border:1px solid var(--rule);border-radius:999px;padding:4px 10px;font-size:14px}
+</style><header><p class="kicker">NESO Now · local · North Carolina</p><h1>North Carolina: local news</h1><p class="lead">Weather alerts by county, the state's emergency management news, and the latest posts from 11 city, county websites in North Carolina. Checked Nov 23, 11:10 AM CT.</p></header><h2>Weather alerts now</h2><p class="src">None in force for North Carolina as of Nov 23, 11:10 AM CT.</p><h2>State emergency management</h2><div class="places"><div class="card place"><h3><a href="https://www.ncdps.gov/our-organization/emergency-management">North Carolina Emergency Management</a></h3><small>Agency · official website</small><ol><li><a class="hl" href="https://www.ncdps.gov/news/press-releases/2026/11/23/consent-judgment-ordered-swain-county-nuisance-case">Consent Judgment Ordered in Swain County Nuisance Case</a><small>Nov 23, 2026</small></li><li><a class="hl" href="https://www.ncdps.gov/news/press-releases/2026/11/20/ale-source-investigation-leads-charge-following-fatal-robeson-county-crash">ALE Source Investigation Leads to Charge Following Fatal Robeson County Crash</a><small>Nov 20, 2026</small></li><li><a class="hl" href="https://www.ncdps.gov/news/press-releases/2026/11/20/north-carolina-seeks-additional-contractors-helene-private-road-and-bridge-program">North Carolina Seeks Additional Contractors for the Helene Private Road and Bridge Program</a><small>Nov 20, 2026</small></li><li><a class="hl" href="https://www.ncdps.gov/news/press-releases/2026/11/17/governor-stein-highlights-public-safety-investments-north-carolina-violence-prevention-conference">Governor Stein Highlights Public Safety Investments at North Carolina Violence Prevention Conference</a><small>Nov 19, 2026</small></li><li><a class="hl" href="https://www.ncdps.gov/news/press-releases/2026/11/16/reunion-del-comite-asesor-ciudadano-sobre-medidas-de-mitigacion-4-de-diciembre">Reunión del Comité Asesor Ciudadano sobre Medidas de Mitigación, 4 de diciembre</a><small>Nov 17, 2026</small></li></ol></div></div><h2>Cities and counties</h2><div class="places"><div class="card place"><h3><a href="https://www.cityofws.org/">Winston-Salem</a></h3><small>City · official website</small><ol><li><a class="hl" href="https://www.cityofws.org/CivicAlerts.aspx?aid=2065">City Operations Changes Due to Thanksgiving Holiday</a><small>Nov 20, 2026</small></li><li><a class="hl" href="https://www.cityofws.org/CivicAlerts.aspx?aid=2064">City seeks public input on proposed downtown sidewalk café ordinance revisions</a><small>Nov 20, 2026</small></li><li><a class="hl" href="https://www.cityofws.org/CivicAlerts.aspx?aid=2059">The Hot Dog Stands of Winston-Salem</a><small>Nov 2, 2026</small></li><li><a class="hl" href="https://www.cityofws.org/CivicAlerts.aspx?aid=2058">Loose Leaf Collection Season Begins Nov. 2</a><small>Oct 29, 2026</small></li></ol></div><div class="card place"><h3><a href="https://www.durhamnc.gov/">Durham</a></h3><small>City · official website</small><ol><li><a class="hl" href="https://www.durhamnc.gov/CivicAlerts.aspx?aid=4337">Project Update | November 14, 2026</a><small>Nov 20, 2026</small></li><li><a class="hl" href="https://www.durhamnc.gov/CivicAlerts.aspx?aid=4340">Project Update | November 20, 2026</a><small>Nov 20, 2026</small></li><li><a class="hl" href="https://www.durhamnc.gov/CivicAlerts.aspx?aid=4339">Project Update | November 20, 2026</a><small>Nov 19, 2026</small></li><li><a class="hl" href="https://www.durhamnc.gov/CivicAlerts.aspx?aid=4338">Project Update | November 20, 2026</a><small>Nov 19, 2026</small></li><li><a class="hl" href="https://www.durhamnc.gov/CivicAlerts.aspx?aid=4336">City of Durham Announces Service Changes for Thanksgiving</a><small>Nov 13, 2026</small></li></ol></div><div class="card place"><h3><a href="https://www.wake.gov/">Wake County</a></h3><small>County · official website</small><ol><li><a class="hl" href="https://www.wake.gov/news/wake-county-johnston-county-and-triangle-land-conservancy-partner-landowners-permanently-preserve-zebulon-area-farm">Wake County, Johnston County and Triangle Land Conservancy partner with landowners to permanently preserve Zebulon area farm</a><small>Nov 20, 2026</small></li><li><a class="hl" href="https://www.wake.gov/news/wake-county-board-elections-certifies-results-2026-general-election">Wake County Board of Elections certifies results of the 2026 General Election</a><small>Nov 19, 2026</small></li><li><a class="hl" href="https://www.wake.gov/news/give-back-help-animals-make-difference">Give back. Help the animals. Make a difference.</a><small>Nov 19, 2026</small></li><li><a class="hl" href="https://www.wake.gov/news/wake-county-greenlights-construction-lake-myra-county-park">Wake County greenlights construction of Lake Myra County Park</a><small>Nov 16, 2026</small></li><li><a class="hl" href="https://www.wake.gov/news/wake-county-approves-10-year-roadmap-parks-recreation-and-open-space">Wake County approves 10-year roadmap for Parks, Recreation and Open Space</a><small>Nov 16, 2026</small></li></ol></div><div class="card place"><h3><a href="https://www.ashevillenc.gov/">Asheville</a></h3><small>City · official website</small><ol><li><a class="hl" href="https://www.ashevillenc.gov/news/city-of-asheville-offices-close-nov-26-27-in-observance-of-the-thanksgiving-holiday/">City of Asheville offices close Nov. 26 &amp; 27 in observance of the Thanksgiving holiday</a><small>Nov 19, 2026</small></li><li><a class="hl" href="https://www.ashevillenc.gov/news/ashevilles-nature-center-helps-kids-connect-to-nature-one-classroom-at-a-time/">Asheville’s Nature Center helps kids connect to nature, one classroom at a time</a><small>Nov 18, 2026</small></li><li><a class="hl" href="https://www.ashevillenc.gov/news/asheville-holiday-free-store-2026/">Discover Treasures and Spread Cheer at Asheville Holiday Free Store on Dec. 5</a><small>Nov 17, 2026</small></li><li><a class="hl" href="https://www.ashevillenc.gov/news/join-the-fun-at-ashevilles-80th-holiday-parade-this-saturday-november-21/">Join the fun at Asheville’s 80th Holiday Parade this Saturday, November 21</a><small>Nov 17, 2026</small></li><li><a class="hl" href="https://www.ashevillenc.gov/news/city-of-asheville-announces-two-public-information-sessions-as-part-of-its-data-centers-study/">City of Asheville announces two public information sessions as part of its Data Centers Study</a><small>Nov 16, 2026</small></li></ol></div><div class="card place"><h3><a href="https://www.carync.gov/">Cary</a></h3><small>Town · official website</small><p class="none">NESO couldn't reach this site's news this week. <a href="https://www.carync.gov/">Visit the site</a>.</p></div><div class="card place"><h3><a href="https://www.charlottenc.gov/">Charlotte</a></h3><small>City · official website</small><p class="none">This site doesn't offer a news feed NESO can read yet. <a href="https://www.charlottenc.gov/">Visit the site</a>.</p></div><div class="card place"><h3><a href="https://www.fayettevillenc.gov/">Fayetteville</a></h3><small>City · official website</small><p class="none">This site doesn't offer a news feed NESO can read yet. <a href="https://www.fayettevillenc.gov/">Visit the site</a>.</p></div><div class="card place"><h3><a href="https://www.greensboro-nc.gov/">Greensboro</a></h3><small>City · official website</small><p class="none">NESO couldn't reach this site's news this week. <a href="https://www.greensboro-nc.gov/">Visit the site</a>.</p></div><div class="card place"><h3><a href="https://www.mecknc.gov/">Mecklenburg County</a></h3><small>County · official website</small><p class="none">NESO couldn't reach this site's news this week. <a href="https://www.mecknc.gov/">Visit the site</a>.</p></div><div class="card place"><h3><a href="https://raleighnc.gov/">Raleigh</a></h3><small>City · official website</small><p class="none">NESO couldn't reach this site's news this week. <a href="https://raleighnc.gov/">Visit the site</a>.</p></div><div class="card place"><h3><a href="https://www.wilmingtonnc.gov/">Wilmington</a></h3><small>City · official website</small><p class="none">This site doesn't offer a news feed NESO can read yet. <a href="https://www.wilmingtonnc.gov/">Visit the site</a>.</p></div></div><p class="src">Each headline is as the city or county published it, with a link to the post. Weather alerts are from the National Weather Service (api.weather.gov). Also see <a href="/states/north-carolina/">North Carolina's latest official numbers</a>.</p><h2>Other states</h2><p><a href="/local/al/">Alabama</a> · <a href="/local/ar/">Arkansas</a> · <a href="/local/ct/">Connecticut</a> · <a href="/local/fl/">Florida</a> · <a href="/local/ga/">Georgia</a> · <a href="/local/ky/">Kentucky</a> · <a href="/local/la/">Louisiana</a> · <a href="/local/ms/">Mississippi</a> · <a href="/local/mo/">Missouri</a> · <a href="/local/tn/">Tennessee</a> · <a href="/local/tx/">Texas</a></p><div class="cta"><p><b>This is read live, around the clock.</b> The NESO Now streams keep reporting new figures, federal rules, funding and bids as they are published.</p><a class="btn" href="https://www.youtube.com/watch?v=4TKeFn0Offg"><span class="badge">LIVE</span>NESO</a><a class="btn ghost" href="https://www.youtube.com/watch?v=s8cUJGltXlg"><span class="badge">LIVE</span>Bird&#x27;s Eye</a><a class="btn ghost" href="https://www.youtube.com/@nesonow?sub_confirmation=1">Subscribe</a></div>
+</main>
+<footer class="site"><div class="in"><nav><a href="/">Today</a><a href="/breaking/">Breaking now</a><a href="/schedule/">Program guide</a><a href="/map/">States</a><a href="/local/">Local</a><a href="/figures/">The numbers</a><a href="/learn/">Lessons</a><a href="/archive/">Every day</a><a href="/breaking/feed.xml">RSS</a></nav>
+<p>NESO Now is two live streams on YouTube from NESO: NESO and Bird's Eye. The voice is computer-generated.
+Every line on this site repeats what aired or what an agency or network published, and links to the record it came from; that record governs. Nothing here is legal,
+tax, engineering or investment advice. <a href="https://nesohq.com/?source=now-site">nesohq.com</a> ·
+<a href="https://birdseye.nesohq.com/?source=now-site">birdseye.nesohq.com</a> · <a href="https://deltacircle.nesohq.com/?source=now-site">deltacircle.nesohq.com</a></p></div></footer>
+<script>(function(){
+var els=document.querySelectorAll('[data-guide-now],[data-guide-next],[data-guide-when]');if(!els.length)return;
+function et(){var p={};new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour12:false,hour:'2-digit',minute:'2-digit',second:'2-digit'})
+ .formatToParts(new Date()).forEach(function(x){p[x.type]=x.value});return (+p.hour%24)*60+(+p.minute)+(+p.second)/60}
+function fmt(m){m=Math.round(m)%1440;var h=Math.floor(m/60),mm=m%60;return (h%12||12)+':'+(mm<10?'0':'')+mm+' '+(h<12?'AM':'PM')}
+function find(c,now){var into=now%c.wheel,turn=Math.floor(now/c.wheel),i=0;for(var k=0;k<c.blocks.length;k++)if(c.blocks[k][0]<=into)i=k;return{i:i,base:turn*c.wheel}}
+function next(c,name,now){var best=null;for(var d=0;d<2;d++)for(var t=0;t*c.wheel<1440;t++)c.blocks.forEach(function(b){
+ var m=d*1440+t*c.wheel+b[0];if(b[2]===name&&m>now&&(t*c.wheel+b[0])<1440&&(best===null||m<best))best=m});return best}
+fetch('/schedule/program.json').then(function(r){return r.json()}).then(function(P){
+ function draw(){var now=et();
+  [].forEach.call(document.querySelectorAll('[data-guide-now]'),function(e){var c=P[e.getAttribute('data-guide-now')];if(!c)return;
+   var f=find(c,now);e.textContent='On now: '+c.blocks[f.i][2]});
+  [].forEach.call(document.querySelectorAll('[data-guide-next]'),function(e){var c=P[e.getAttribute('data-guide-next')];if(!c)return;
+   var f=find(c,now),j=f.i;for(var k=0;k<c.blocks.length;k++){j=(j+1)%c.blocks.length;if(c.blocks[j][2]!=='Commercial Break')break}
+   var m=f.base+c.blocks[j][0]+(j<=f.i?c.wheel:0);e.textContent='Next: '+c.blocks[j][2]+', '+fmt(m)+' ET'});
+  [].forEach.call(document.querySelectorAll('[data-guide-when]'),function(e){var a=e.getAttribute('data-guide-when').split('|'),c=P[a[0]];if(!c)return;
+   var m=next(c,a[1],now);if(m===null)return;var mins=Math.round(m-now);
+   var h=Math.floor(mins/60),r=mins%60;
+   e.textContent='Next on at '+fmt(m)+' ET'+(m>=1440?', tomorrow':mins<=0?'':', in '+(h?h+(h>1?' hours':' hour')+(r?' '+r+' min':''):r+' minutes'))});
+ }
+ draw();setInterval(draw,30000);
+}).catch(function(){});
+})();</script><script>
+(function(){var KEY="neso-rx";var mine={};try{mine=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+function mark(el,r){el.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.r===r?"true":"false")});}
+fetch("/api/react?ping=1",{cache:"no-store"}).then(function(r){return r.json()}).then(function(j){
+if(!j||!j.ok)return;document.body.classList.add("rx-on");
+document.querySelectorAll(".rx").forEach(function(el){var k=el.dataset.rx;if(mine[k])mark(el,mine[k]);
+el.addEventListener("click",function(ev){var b=ev.target.closest("button");if(!b)return;var r=b.dataset.r;mark(el,r);
+mine[k]=r;try{localStorage.setItem(KEY,JSON.stringify(mine))}catch(e){}
+el.querySelector("small").textContent="Thanks";
+fetch("/api/react",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({v:k,r:r,t:el.dataset.t||""})}).catch(function(){});});});
+}).catch(function(){});})();
+</script></body></html>

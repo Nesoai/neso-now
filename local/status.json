@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T17:05:19.126679+00:00",
+ "at": "2026-11-23T17:10:59.557828+00:00",
  "states": {
   "TN": {
    "alerts": 0,
@@ -9,7 +9,7 @@
      "name": "Tennessee Emergency Management Agency",
      "site": "https://www.tn.gov/tema.html",
      "feed": null,
-     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "how": "site didn't answer (URLError: <urlopen error [Errno 104] Connection reset by peer>)",
      "posts": 0,
      "error": ""
     },
@@ -593,6 +593,618 @@
      "feed": null,
      "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
      "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "GA": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Georgia Emergency Management and Homeland Security Agency",
+     "site": "https://gema.georgia.gov/",
+     "feed": "https://gema.georgia.gov/rss.xml",
+     "how": "the usual address",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Atlanta",
+     "site": "https://www.atlantaga.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Savannah",
+     "site": "https://www.savannahga.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Augusta",
+     "site": "https://www.augustaga.gov/",
+     "feed": "https://www.augustaga.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 9,
+     "error": ""
+    },
+    {
+     "name": "Columbus",
+     "site": "https://www.columbusga.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Macon-Bibb County",
+     "site": "https://www.maconbibb.us/",
+     "feed": "https://www.maconbibb.us/feed/",
+     "how": "the usual address",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Athens-Clarke County",
+     "site": "https://www.accgov.com/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Sandy Springs",
+     "site": "https://www.sandyspringsga.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Roswell",
+     "site": "https://www.roswellgov.com/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Fulton County",
+     "site": "https://www.fultoncountyga.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Cobb County",
+     "site": "https://www.cobbcounty.org/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Gwinnett County",
+     "site": "https://www.gwinnettcounty.com/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "LA": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Governor's Office of Homeland Security and Emergency Preparedness",
+     "site": "https://gohsep.la.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "New Orleans",
+     "site": "https://nola.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Baton Rouge (City-Parish)",
+     "site": "https://www.brla.gov/",
+     "feed": "https://www.brla.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 17,
+     "error": ""
+    },
+    {
+     "name": "Shreveport",
+     "site": "https://www.shreveportla.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Lafayette (Consolidated Government)",
+     "site": "https://www.lafayettela.gov/",
+     "feed": "https://www.lafayettela.gov/news/rss",
+     "how": "the usual address",
+     "posts": 20,
+     "error": ""
+    },
+    {
+     "name": "Lake Charles",
+     "site": "https://www.cityoflakecharles.com/",
+     "feed": "https://www.cityoflakecharles.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 4,
+     "error": ""
+    },
+    {
+     "name": "Kenner",
+     "site": "https://www.kenner.la.us/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Monroe",
+     "site": "https://www.monroela.us/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Bossier City",
+     "site": "https://www.bossiercity.org/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Jefferson Parish",
+     "site": "https://www.jeffparish.gov/",
+     "feed": "https://www.jeffparish.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 2,
+     "error": ""
+    },
+    {
+     "name": "St. Tammany Parish",
+     "site": "https://www.stpgov.org/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "MO": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Missouri State Emergency Management Agency",
+     "site": "https://sema.dps.mo.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Kansas City",
+     "site": "https://www.kcmo.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "St. Louis",
+     "site": "https://www.stlouis-mo.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Springfield",
+     "site": "https://www.springfieldmo.gov/",
+     "feed": "https://www.springfieldmo.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 20,
+     "error": ""
+    },
+    {
+     "name": "Columbia",
+     "site": "https://www.como.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Independence",
+     "site": "https://www.independencemo.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Lee's Summit",
+     "site": "https://cityofls.net/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "O'Fallon",
+     "site": "https://www.ofallon.mo.us/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "St. Charles",
+     "site": "https://www.stcharlescitymo.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "St. Louis County",
+     "site": "https://stlouiscountymo.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Jackson County",
+     "site": "https://www.jacksongov.org/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Greene County",
+     "site": "https://greenecountymo.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "TX": {
+   "alerts": 6,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Texas Division of Emergency Management",
+     "site": "https://tdem.texas.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Houston",
+     "site": "https://www.houstontx.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "San Antonio",
+     "site": "https://www.sanantonio.gov/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error [Errno -3] Temporary failure in name resolution>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Dallas",
+     "site": "https://dallascityhall.com/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Austin",
+     "site": "https://www.austintexas.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Fort Worth",
+     "site": "https://www.fortworthtexas.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "El Paso",
+     "site": "https://www.elpasotexas.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Arlington",
+     "site": "https://www.arlingtontx.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Plano",
+     "site": "https://www.plano.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Lubbock",
+     "site": "https://ci.lubbock.tx.us/",
+     "feed": "https://ci.lubbock.tx.us/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 1,
+     "error": ""
+    },
+    {
+     "name": "Harris County",
+     "site": "https://www.harriscountytx.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Travis County",
+     "site": "https://www.traviscountytx.gov/",
+     "feed": null,
+     "how": "its feed link didn't read",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Bexar County",
+     "site": "https://www.bexar.org/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "FL": {
+   "alerts": 10,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "Florida Division of Emergency Management",
+     "site": "https://www.floridadisaster.org/",
+     "feed": null,
+     "how": "site didn't answer (URLError: <urlopen error [Errno -3] Temporary failure in name resolution>)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Jacksonville",
+     "site": "https://www.jacksonville.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Miami",
+     "site": "https://www.miami.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Tampa",
+     "site": "https://www.tampa.gov/",
+     "feed": "https://www.tampa.gov/news/feed/",
+     "how": "the usual address",
+     "posts": 20,
+     "error": ""
+    },
+    {
+     "name": "Orlando",
+     "site": "https://www.orlando.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "St. Petersburg",
+     "site": "https://www.stpete.org/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Tallahassee",
+     "site": "https://www.talgov.com/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Fort Lauderdale",
+     "site": "https://www.fortlauderdale.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Pensacola",
+     "site": "https://www.cityofpensacola.com/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Miami-Dade County",
+     "site": "https://www.miamidade.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Hillsborough County",
+     "site": "https://www.hillsboroughcounty.org/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Orange County",
+     "site": "https://www.orangecountyfl.net/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    }
+   ]
+  },
+  "NC": {
+   "alerts": 0,
+   "alerts_error": "",
+   "sites": [
+    {
+     "name": "North Carolina Emergency Management",
+     "site": "https://www.ncdps.gov/our-organization/emergency-management",
+     "feed": "https://www.ncdps.gov/news/feed/",
+     "how": "the usual address",
+     "posts": 10,
+     "error": ""
+    },
+    {
+     "name": "Charlotte",
+     "site": "https://www.charlottenc.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Raleigh",
+     "site": "https://raleighnc.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Greensboro",
+     "site": "https://www.greensboro-nc.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Durham",
+     "site": "https://www.durhamnc.gov/",
+     "feed": "https://www.durhamnc.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 20,
+     "error": ""
+    },
+    {
+     "name": "Winston-Salem",
+     "site": "https://www.cityofws.org/",
+     "feed": "https://www.cityofws.org/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
+     "how": "the usual address",
+     "posts": 4,
+     "error": ""
+    },
+    {
+     "name": "Fayetteville",
+     "site": "https://www.fayettevillenc.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Cary",
+     "site": "https://www.carync.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Wilmington",
+     "site": "https://www.wilmingtonnc.gov/",
+     "feed": null,
+     "how": "no news feed offered",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Asheville",
+     "site": "https://www.ashevillenc.gov/",
+     "feed": "https://www.ashevillenc.gov/feed/",
+     "how": "listed on the homepage",
+     "posts": 12,
+     "error": ""
+    },
+    {
+     "name": "Mecklenburg County",
+     "site": "https://www.mecknc.gov/",
+     "feed": null,
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "posts": 0,
+     "error": ""
+    },
+    {
+     "name": "Wake County",
+     "site": "https://www.wake.gov/",
+     "feed": "https://www.wake.gov/rss.xml",
+     "how": "the usual address",
+     "posts": 10,
      "error": ""
     }
    ]
