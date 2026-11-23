@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T18:05:22.070730+00:00",
+ "at": "2026-11-23T19:05:22.735760+00:00",
  "states": {
   "TN": {
    "alerts": 0,
@@ -58,7 +58,7 @@
      "site": "https://www.murfreesborotn.gov/",
      "feed": "https://www.murfreesborotn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
-     "posts": 14,
+     "posts": 15,
      "error": ""
     },
     {
@@ -630,7 +630,7 @@
      "site": "https://www.augustaga.gov/",
      "feed": "https://www.augustaga.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
-     "posts": 9,
+     "posts": 8,
      "error": ""
     },
     {
@@ -724,7 +724,7 @@
      "site": "https://www.brla.gov/",
      "feed": "https://www.brla.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
-     "posts": 17,
+     "posts": 18,
      "error": ""
     },
     {
@@ -749,7 +749,7 @@
      "feed": "https://www.cityoflakecharles.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 4,
-     "error": ""
+     "error": "https://www.cityoflakecharles.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 429: Too Many Requests"
     },
     {
      "name": "Kenner",
@@ -780,7 +780,7 @@
      "site": "https://www.jeffparish.gov/",
      "feed": "https://www.jeffparish.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
-     "posts": 2,
+     "posts": 3,
      "error": ""
     },
     {
@@ -1006,7 +1006,7 @@
    ]
   },
   "FL": {
-   "alerts": 11,
+   "alerts": 12,
    "alerts_error": "",
    "sites": [
     {
@@ -1205,7 +1205,7 @@
      "feed": "https://www.wake.gov/rss.xml",
      "how": "the usual address",
      "posts": 10,
-     "error": ""
+     "error": "https://www.wake.gov/rss.xml: not readable XML (not well-formed (invalid token): line 1, column 0; after mending: not well-formed (invalid token): line 1, colum"
     }
    ]
   }
