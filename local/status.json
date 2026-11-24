@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24T00:05:27.179885+00:00",
+ "at": "2026-11-24T01:05:24.031519+00:00",
  "states": {
   "TN": {
    "alerts": 0,
@@ -35,7 +35,7 @@
      "feed": "https://www.knoxvilletn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 7,
-     "error": ""
+     "error": "https://www.knoxvilletn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Chattanooga",
@@ -59,7 +59,7 @@
      "feed": "https://www.murfreesborotn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 15,
-     "error": ""
+     "error": "https://www.murfreesborotn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Franklin",
@@ -83,7 +83,7 @@
      "feed": "https://www.shelbycountytn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 13,
-     "error": ""
+     "error": "https://www.shelbycountytn.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Hamilton County",
@@ -263,7 +263,7 @@
      "feed": "https://www.georgetownky.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 2,
-     "error": ""
+     "error": "https://www.georgetownky.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Frankfort",
@@ -381,7 +381,7 @@
      "feed": "https://www.greenwichct.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 20,
-     "error": ""
+     "error": "https://www.greenwichct.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "West Hartford",
@@ -475,7 +475,7 @@
      "feed": "https://www.jccal.org/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 11,
-     "error": ""
+     "error": "https://www.jccal.org/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Madison County",
@@ -553,7 +553,7 @@
      "feed": "https://www.rogersar.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 1,
-     "error": ""
+     "error": "https://www.rogersar.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Conway",
@@ -631,7 +631,7 @@
      "feed": "https://www.augustaga.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 8,
-     "error": ""
+     "error": "https://www.augustaga.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Columbus",
@@ -725,7 +725,7 @@
      "feed": "https://www.brla.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 18,
-     "error": ""
+     "error": "https://www.brla.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Shreveport",
@@ -749,7 +749,7 @@
      "feed": "https://www.cityoflakecharles.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 4,
-     "error": ""
+     "error": "https://www.cityoflakecharles.com/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Kenner",
@@ -781,7 +781,7 @@
      "feed": "https://www.jeffparish.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 4,
-     "error": ""
+     "error": "https://www.jeffparish.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "St. Tammany Parish",
@@ -827,7 +827,7 @@
      "feed": "https://www.springfieldmo.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 20,
-     "error": ""
+     "error": "https://www.springfieldmo.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Columbia",
@@ -977,7 +977,7 @@
      "feed": "https://ci.lubbock.tx.us/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 1,
-     "error": ""
+     "error": "https://ci.lubbock.tx.us/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Harris County",
@@ -1149,7 +1149,7 @@
      "feed": "https://www.durhamnc.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 20,
-     "error": ""
+     "error": "https://www.durhamnc.gov/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Winston-Salem",
@@ -1157,7 +1157,7 @@
      "feed": "https://www.cityofws.org/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml",
      "how": "the usual address",
      "posts": 4,
-     "error": ""
+     "error": "https://www.cityofws.org/RSSFeed.aspx?ModID=1&CID=All-newsflash.xml: HTTPError: HTTP Error 403: Forbidden"
     },
     {
      "name": "Fayetteville",
