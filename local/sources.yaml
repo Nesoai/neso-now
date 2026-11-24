@@ -1,0 +1,194 @@
+# Local news for now.nesohq.com/local/ (update 14.5, a principal, 22 November 2026).
+#
+# Only official government sources: each city's and county's own website, the state's emergency management agency,
+# and National Weather Service alerts for the state. NESO Live reads each site's homepage once a week, finds the
+# news feed the site itself offers (a feed link on the page, or the usual CivicPlus or WordPress feed address), and
+# keeps it only if it is on the site's own domain. `python -m neso_live check-feeds` shows what each place offers.
+#
+# To add a place: its name, "city" or "county", and its official homepage. To pin a feed you've checked, add
+# feed: <address>. 14.5.3: feeds: [<address>, ...] lists feeds found by hand and opened first; the first that reads is kept.
+# 14.5.4: the live copy of this list is local/sources.yaml in the NESO Now site repository (Nesoai/neso-now); this file is
+# only the fallback. Pilot states first; local TV stations and GDELT wait on HQ's to-do list.
+#
+# Connecticut has no county governments (abolished in 1960), so its list is towns and cities only.
+
+states:
+  TN:
+    name: Tennessee
+    agency: {name: Tennessee Emergency Management Agency, site: "https://www.tn.gov/tema.html"}
+    places:
+      - {name: Memphis, kind: city, site: "https://memphistn.gov/"}
+      - {name: Nashville (Metro), kind: city, site: "https://www.nashville.gov/"}
+      - {name: Knoxville, kind: city, site: "https://www.knoxvilletn.gov/"}
+      - {name: Chattanooga, kind: city, site: "https://chattanooga.gov/"}
+      - {name: Clarksville, kind: city, site: "https://www.clarksvilletn.gov/"}
+      - {name: Murfreesboro, kind: city, site: "https://www.murfreesborotn.gov/"}
+      - {name: Franklin, kind: city, site: "https://www.franklintn.gov/"}
+      - {name: Jackson, kind: city, site: "https://www.jacksontn.gov/"}
+      - {name: Shelby County, kind: county, site: "https://www.shelbycountytn.gov/"}
+      - {name: Hamilton County, kind: county, site: "https://www.hamiltontn.gov/"}
+      - {name: Knox County, kind: county, site: "https://www.knoxcounty.org/"}
+  MS:
+    name: Mississippi
+    agency: {name: Mississippi Emergency Management Agency, site: "https://www.msema.org/"}
+    places:
+      - {name: Jackson, kind: city, site: "https://www.jacksonms.gov/"}
+      - {name: Gulfport, kind: city, site: "https://gulfport-ms.gov/"}
+      - {name: Southaven, kind: city, site: "https://www.southaven.org/"}
+      - {name: Hattiesburg, kind: city, site: "https://www.hattiesburgms.com/"}
+      - {name: Biloxi, kind: city, site: "https://biloxi.ms.us/"}
+      - {name: Tupelo, kind: city, site: "https://www.tupeloms.gov/"}
+      - {name: Olive Branch, kind: city, site: "https://www.obms.us/"}
+      - {name: Ridgeland, kind: city, site: "https://www.ridgelandms.org/"}
+      - {name: DeSoto County, kind: county, site: "https://www.desotocountyms.gov/"}
+      - {name: Hinds County, kind: county, site: "https://www.hindscountyms.com/"}
+      - {name: Harrison County, kind: county, site: "https://harrisoncountyms.gov/"}
+  KY:
+    name: Kentucky
+    agency: {name: Kentucky Emergency Management, site: "https://www.kyem.ky.gov/"}
+    places:
+      - {name: Louisville Metro, kind: city, site: "https://louisvilleky.gov/"}
+      - {name: Lexington, kind: city, site: "https://www.lexingtonky.gov/"}
+      - {name: Bowling Green, kind: city, site: "https://www.bgky.org/"}
+      - {name: Owensboro, kind: city, site: "https://www.owensboro.org/"}
+      - {name: Covington, kind: city, site: "https://www.covingtonky.gov/"}
+      - {name: Georgetown, kind: city, site: "https://www.georgetownky.gov/"}
+      - {name: Frankfort, kind: city, site: "https://www.frankfort.ky.gov/"}
+      - {name: Warren County, kind: county, site: "https://www.warrencountyky.gov/"}
+      - {name: Kenton County, kind: county, site: "https://www.kentoncounty.org/"}
+      - {name: Boone County, kind: county, site: "https://www.boonecountyky.org/"}
+  CT:
+    name: Connecticut
+    agency: {name: Connecticut Division of Emergency Management and Homeland Security, site: "https://portal.ct.gov/demhs"}
+    places:
+      - {name: Bridgeport, kind: city, site: "https://www.bridgeportct.gov/"}
+      - {name: New Haven, kind: city, site: "https://www.newhavenct.gov/"}
+      - {name: Hartford, kind: city, site: "https://www.hartfordct.gov/"}
+      - {name: Stamford, kind: city, site: "https://www.stamfordct.gov/"}
+      - {name: Waterbury, kind: city, site: "https://www.waterburyct.org/"}
+      - {name: Norwalk, kind: city, site: "https://www.norwalkct.gov/"}
+      - {name: Danbury, kind: city, site: "https://www.danbury-ct.gov/"}
+      - {name: New Britain, kind: city, site: "https://www.newbritainct.gov/"}
+      - {name: Greenwich, kind: town, site: "https://www.greenwichct.gov/"}
+      - {name: West Hartford, kind: town, site: "https://www.westhartfordct.gov/"}
+  AL:
+    name: Alabama
+    agency: {name: Alabama Emergency Management Agency, site: "https://ema.alabama.gov/"}
+    places:
+      - {name: Birmingham, kind: city, site: "https://www.birminghamal.gov/"}
+      - {name: Huntsville, kind: city, site: "https://www.huntsvilleal.gov/"}
+      - {name: Montgomery, kind: city, site: "https://www.montgomeryal.gov/"}
+      - {name: Mobile, kind: city, site: "https://www.cityofmobile.org/"}
+      - {name: Tuscaloosa, kind: city, site: "https://www.tuscaloosa.com/"}
+      - {name: Hoover, kind: city, site: "https://www.hooveralabama.gov/"}
+      - {name: Auburn, kind: city, site: "https://www.auburnalabama.org/"}
+      - {name: Dothan, kind: city, site: "https://www.dothan.org/"}
+      - {name: Jefferson County, kind: county, site: "https://www.jccal.org/"}
+      - {name: Madison County, kind: county, site: "https://www.madisoncountyal.gov/"}
+      - {name: Mobile County, kind: county, site: "https://www.mobilecountyal.gov/"}
+  AR:
+    name: Arkansas
+    agency: {name: "Arkansas Department of Public Safety (emergency management and state police news)", site: "https://dps.arkansas.gov/emergency-management/adem/"}
+    places:
+      - {name: Little Rock, kind: city, site: "https://www.littlerock.gov/"}
+      - {name: Fort Smith, kind: city, site: "https://www.fortsmithar.gov/"}
+      - {name: Fayetteville, kind: city, site: "https://www.fayetteville-ar.gov/"}
+      - {name: Springdale, kind: city, site: "https://www.springdalear.gov/"}
+      - {name: Jonesboro, kind: city, site: "https://www.jonesboro.org/"}
+      - {name: Rogers, kind: city, site: "https://www.rogersar.gov/"}
+      - {name: Conway, kind: city, site: "https://www.conwayarkansas.gov/"}
+      - {name: Bentonville, kind: city, site: "https://www.bentonvillear.com/"}
+      - {name: Pulaski County, kind: county, site: "https://pulaskicounty.net/"}
+      - {name: Benton County, kind: county, site: "https://bentoncountyar.gov/"}
+      - {name: Washington County, kind: county, site: "https://www.washingtoncountyar.gov/"}
+  # Second batch (a principal, 23 Nov 2026): the neighbors of the six pilot states.
+  GA:
+    name: Georgia
+    agency: {name: Georgia Emergency Management and Homeland Security Agency, site: "https://gema.georgia.gov/"}
+    places:
+      - {name: Atlanta, kind: city, site: "https://www.atlantaga.gov/"}
+      - {name: Savannah, kind: city, site: "https://www.savannahga.gov/"}
+      - {name: Augusta, kind: city, site: "https://www.augustaga.gov/"}
+      - {name: Columbus, kind: city, site: "https://www.columbusga.gov/"}
+      - {name: Macon-Bibb County, kind: city, site: "https://www.maconbibb.us/"}
+      - {name: Athens-Clarke County, kind: city, site: "https://www.accgov.com/"}
+      - {name: Sandy Springs, kind: city, site: "https://www.sandyspringsga.gov/"}
+      - {name: Roswell, kind: city, site: "https://www.roswellgov.com/"}
+      - {name: Fulton County, kind: county, site: "https://www.fultoncountyga.gov/"}
+      - {name: Cobb County, kind: county, site: "https://www.cobbcounty.org/"}
+      - {name: Gwinnett County, kind: county, site: "https://www.gwinnettcounty.com/"}
+  LA:
+    name: Louisiana
+    agency: {name: Governor's Office of Homeland Security and Emergency Preparedness, site: "https://gohsep.la.gov/"}
+    places:
+      - {name: New Orleans, kind: city, site: "https://nola.gov/"}
+      - {name: Baton Rouge (City-Parish), kind: city, site: "https://www.brla.gov/"}
+      - {name: Shreveport, kind: city, site: "https://www.shreveportla.gov/"}
+      - {name: Lafayette (Consolidated Government), kind: city, site: "https://www.lafayettela.gov/"}
+      - {name: Lake Charles, kind: city, site: "https://www.cityoflakecharles.com/"}
+      - {name: Kenner, kind: city, site: "https://www.kenner.la.us/"}
+      - {name: Monroe, kind: city, site: "https://www.monroela.us/"}
+      - {name: Bossier City, kind: city, site: "https://www.bossiercity.org/"}
+      - {name: Jefferson Parish, kind: parish, site: "https://www.jeffparish.gov/"}
+      - {name: St. Tammany Parish, kind: parish, site: "https://www.stpgov.org/"}
+  MO:
+    name: Missouri
+    agency: {name: Missouri State Emergency Management Agency, site: "https://sema.dps.mo.gov/"}
+    places:
+      - {name: Kansas City, kind: city, site: "https://www.kcmo.gov/"}
+      - {name: St. Louis, kind: city, site: "https://www.stlouis-mo.gov/"}
+      - {name: Springfield, kind: city, site: "https://www.springfieldmo.gov/"}
+      - {name: Columbia, kind: city, site: "https://www.como.gov/"}
+      - {name: Independence, kind: city, site: "https://www.independencemo.gov/"}
+      - {name: Lee's Summit, kind: city, site: "https://cityofls.net/"}
+      - {name: O'Fallon, kind: city, site: "https://www.ofallon.mo.us/"}
+      - {name: St. Charles, kind: city, site: "https://www.stcharlescitymo.gov/"}
+      - {name: St. Louis County, kind: county, site: "https://stlouiscountymo.gov/"}
+      - {name: Jackson County, kind: county, site: "https://www.jacksongov.org/"}
+      - {name: Greene County, kind: county, site: "https://greenecountymo.gov/"}
+  TX:
+    name: Texas
+    agency: {name: Texas Division of Emergency Management, site: "https://tdem.texas.gov/"}
+    places:
+      - {name: Houston, kind: city, site: "https://www.houstontx.gov/"}
+      - {name: San Antonio, kind: city, site: "https://www.sa.gov/"}
+      - {name: Dallas, kind: city, site: "https://dallascityhall.com/", feeds: ["https://www.dallascitynews.net/feed/"]}
+      - {name: Austin, kind: city, site: "https://www.austintexas.gov/"}
+      - {name: Fort Worth, kind: city, site: "https://www.fortworthtexas.gov/"}
+      - {name: El Paso, kind: city, site: "https://www.elpasotexas.gov/"}
+      - {name: Arlington, kind: city, site: "https://www.arlingtontx.gov/"}
+      - {name: Plano, kind: city, site: "https://www.plano.gov/"}
+      - {name: Lubbock, kind: city, site: "https://ci.lubbock.tx.us/"}
+      - {name: Harris County, kind: county, site: "https://www.harriscountytx.gov/"}
+      - {name: Travis County, kind: county, site: "https://www.traviscountytx.gov/"}
+      - {name: Bexar County, kind: county, site: "https://www.bexar.org/"}
+  FL:
+    name: Florida
+    agency: {name: Florida Division of Emergency Management, site: "https://www.floridadisaster.org/"}
+    places:
+      - {name: Jacksonville, kind: city, site: "https://www.jacksonville.gov/"}
+      - {name: Miami, kind: city, site: "https://www.miami.gov/"}
+      - {name: Tampa, kind: city, site: "https://www.tampa.gov/"}
+      - {name: Orlando, kind: city, site: "https://www.orlando.gov/"}
+      - {name: St. Petersburg, kind: city, site: "https://www.stpete.org/"}
+      - {name: Tallahassee, kind: city, site: "https://www.talgov.com/"}
+      - {name: Fort Lauderdale, kind: city, site: "https://www.fortlauderdale.gov/"}
+      - {name: Pensacola, kind: city, site: "https://www.cityofpensacola.com/"}
+      - {name: Miami-Dade County, kind: county, site: "https://www.miamidade.gov/", feeds: ["https://www.miamidade.gov/global/rss-news.page"]}
+      - {name: Hillsborough County, kind: county, site: "https://www.hillsboroughcounty.org/"}
+      - {name: Orange County, kind: county, site: "https://www.orangecountyfl.net/"}
+  NC:
+    name: North Carolina
+    agency: {name: North Carolina Emergency Management, site: "https://www.ncdps.gov/our-organization/emergency-management"}
+    places:
+      - {name: Charlotte, kind: city, site: "https://www.charlottenc.gov/"}
+      - {name: Raleigh, kind: city, site: "https://raleighnc.gov/"}
+      - {name: Greensboro, kind: city, site: "https://www.greensboro-nc.gov/"}
+      - {name: Durham, kind: city, site: "https://www.durhamnc.gov/"}
+      - {name: Winston-Salem, kind: city, site: "https://www.cityofws.org/"}
+      - {name: Fayetteville, kind: city, site: "https://www.fayettevillenc.gov/"}
+      - {name: Cary, kind: town, site: "https://www.carync.gov/"}
+      - {name: Wilmington, kind: city, site: "https://www.wilmingtonnc.gov/"}
+      - {name: Asheville, kind: city, site: "https://www.ashevillenc.gov/"}
+      - {name: Mecklenburg County, kind: county, site: "https://www.mecknc.gov/"}
+      - {name: Wake County, kind: county, site: "https://www.wake.gov/"}
