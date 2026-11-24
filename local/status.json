@@ -1,5 +1,5 @@
 {
- "at": "2026-11-24T12:05:20.394487+00:00",
+ "at": "2026-11-24T12:56:52.272772+00:00",
  "states": {
   "TN": {
    "alerts": 0,
@@ -25,7 +25,7 @@
      "name": "Nashville (Metro)",
      "site": "https://www.nashville.gov/",
      "feed": null,
-     "how": "no news feed offered",
+     "how": "hand-found feeds didn't read (https://content.govdelivery.com/accounts/TNNASH/bulletins.rss: HTTPError: HTTP Error 406: ; https://public.govdelivery.com/accounts/TNNASH/bulletins.rss: HTTPError: HTTP Error 406: N); no news feed offered",
      "posts": 0,
      "error": ""
     },
@@ -221,7 +221,7 @@
      "name": "Louisville Metro",
      "site": "https://louisvilleky.gov/",
      "feed": null,
-     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "how": "hand-found feeds didn't read (https://content.govdelivery.com/accounts/KYLOUISVILLE/bulletins.rss: HTTPError: HTTP Error; https://public.govdelivery.com/accounts/KYLOUISVILLE/bulletins.rss: HTTPError: HTTP Error ); site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
      "posts": 0,
      "error": ""
     },
@@ -621,7 +621,7 @@
      "name": "Savannah",
      "site": "https://www.savannahga.gov/",
      "feed": null,
-     "how": "site didn't answer (URLError: <urlopen error timed out>)",
+     "how": "site didn't answer (URLError: <urlopen error [Errno -3] Temporary failure in name resolution>)",
      "posts": 0,
      "error": ""
     },
@@ -715,7 +715,7 @@
      "name": "New Orleans",
      "site": "https://nola.gov/",
      "feed": null,
-     "how": "no news feed offered",
+     "how": "hand-found feeds didn't read (https://content.govdelivery.com/accounts/LANOLA/bulletins.rss: HTTPError: HTTP Error 406: ; https://public.govdelivery.com/accounts/LANOLA/bulletins.rss: HTTPError: HTTP Error 406: N); no news feed offered",
      "posts": 0,
      "error": ""
     },
@@ -917,18 +917,18 @@
     },
     {
      "name": "San Antonio",
-     "site": "https://www.sanantonio.gov/",
+     "site": "https://www.sa.gov/",
      "feed": null,
-     "how": "site didn't answer (URLError: <urlopen error [Errno -3] Temporary failure in name resolution>)",
+     "how": "no news feed offered",
      "posts": 0,
      "error": ""
     },
     {
      "name": "Dallas",
      "site": "https://dallascityhall.com/",
-     "feed": null,
-     "how": "no news feed offered",
-     "posts": 0,
+     "feed": "https://www.dallascitynews.net/feed/",
+     "how": "found by hand (local_sources.yaml)",
+     "posts": 12,
      "error": ""
     },
     {
@@ -967,7 +967,7 @@
      "name": "Plano",
      "site": "https://www.plano.gov/",
      "feed": null,
-     "how": "no news feed offered",
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
      "posts": 0,
      "error": ""
     },
@@ -999,7 +999,7 @@
      "name": "Bexar County",
      "site": "https://www.bexar.org/",
      "feed": null,
-     "how": "no news feed offered",
+     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
      "posts": 0,
      "error": ""
     }
@@ -1084,9 +1084,9 @@
     {
      "name": "Miami-Dade County",
      "site": "https://www.miamidade.gov/",
-     "feed": null,
-     "how": "no news feed offered",
-     "posts": 0,
+     "feed": "https://www.miamidade.gov/global/rss-news.page",
+     "how": "found by hand (local_sources.yaml)",
+     "posts": 20,
      "error": ""
     },
     {
@@ -1123,7 +1123,7 @@
      "name": "Charlotte",
      "site": "https://www.charlottenc.gov/",
      "feed": null,
-     "how": "no news feed offered",
+     "how": "hand-found feeds didn't read (https://content.govdelivery.com/accounts/NCCHARMECK/bulletins.rss: HTTPError: HTTP Error 4; https://public.govdelivery.com/accounts/NCCHARMECK/bulletins.rss: HTTPError: HTTP Error 40); no news feed offered",
      "posts": 0,
      "error": ""
     },
@@ -1195,7 +1195,7 @@
      "name": "Mecklenburg County",
      "site": "https://www.mecknc.gov/",
      "feed": null,
-     "how": "site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
+     "how": "hand-found feeds didn't read (https://content.govdelivery.com/accounts/NCCHARMECK/bulletins.rss: HTTPError: HTTP Error 4; https://public.govdelivery.com/accounts/NCCHARMECK/bulletins.rss: HTTPError: HTTP Error 40); site didn't answer (HTTPError: HTTP Error 403: Forbidden)",
      "posts": 0,
      "error": ""
     },
