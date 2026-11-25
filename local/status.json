@@ -1,8 +1,8 @@
 {
- "at": "2026-11-25T03:05:22.496071+00:00",
+ "at": "2026-11-25T04:05:24.194321+00:00",
  "states": {
   "TN": {
-   "alerts": 1,
+   "alerts": 2,
    "alerts_error": "",
    "sites": [
     {
@@ -598,7 +598,7 @@
    ]
   },
   "GA": {
-   "alerts": 7,
+   "alerts": 8,
    "alerts_error": "",
    "sites": [
     {
@@ -794,7 +794,7 @@
    ]
   },
   "MO": {
-   "alerts": 5,
+   "alerts": 6,
    "alerts_error": "",
    "sites": [
     {
@@ -1108,7 +1108,7 @@
    ]
   },
   "NC": {
-   "alerts": 25,
+   "alerts": 26,
    "alerts_error": "",
    "sites": [
     {
