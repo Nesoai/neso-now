@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T15:05:19.226181+00:00",
+ "at": "2026-11-25T16:05:29.234463+00:00",
  "states": {
   "TN": {
    "alerts": 3,
@@ -348,7 +348,7 @@
      "site": "https://www.waterburyct.org/",
      "feed": "https://www.waterburyct.org/qcontent/NewsFeed.ashx?ChanID=3033",
      "how": "listed on the homepage",
-     "posts": 5,
+     "posts": 6,
      "error": ""
     },
     {
@@ -496,7 +496,7 @@
    ]
   },
   "AR": {
-   "alerts": 1,
+   "alerts": 4,
    "alerts_error": "",
    "sites": [
     {
@@ -598,7 +598,7 @@
    ]
   },
   "GA": {
-   "alerts": 9,
+   "alerts": 7,
    "alerts_error": "",
    "sites": [
     {
@@ -700,7 +700,7 @@
    ]
   },
   "LA": {
-   "alerts": 2,
+   "alerts": 4,
    "alerts_error": "",
    "sites": [
     {
@@ -896,7 +896,7 @@
    ]
   },
   "TX": {
-   "alerts": 5,
+   "alerts": 6,
    "alerts_error": "",
    "sites": [
     {
@@ -1006,7 +1006,7 @@
    ]
   },
   "FL": {
-   "alerts": 37,
+   "alerts": 41,
    "alerts_error": "",
    "sites": [
     {
@@ -1205,7 +1205,7 @@
      "feed": "https://www.wake.gov/rss.xml",
      "how": "the usual address",
      "posts": 10,
-     "error": ""
+     "error": "https://www.wake.gov/rss.xml: not readable XML (not well-formed (invalid token): line 1, column 0; after mending: not well-formed (invalid token): line 1, colum"
     }
    ]
   }
