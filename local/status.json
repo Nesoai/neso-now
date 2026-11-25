@@ -1,8 +1,8 @@
 {
- "at": "2026-11-25T17:05:19.841642+00:00",
+ "at": "2026-11-25T18:05:28.366179+00:00",
  "states": {
   "TN": {
-   "alerts": 3,
+   "alerts": 5,
    "alerts_error": "",
    "sites": [
     {
@@ -300,7 +300,7 @@
    ]
   },
   "CT": {
-   "alerts": 7,
+   "alerts": 8,
    "alerts_error": "",
    "sites": [
     {
@@ -496,7 +496,7 @@
    ]
   },
   "AR": {
-   "alerts": 4,
+   "alerts": 6,
    "alerts_error": "",
    "sites": [
     {
@@ -598,7 +598,7 @@
    ]
   },
   "GA": {
-   "alerts": 7,
+   "alerts": 8,
    "alerts_error": "",
    "sites": [
     {
@@ -794,7 +794,7 @@
    ]
   },
   "MO": {
-   "alerts": 13,
+   "alerts": 14,
    "alerts_error": "",
    "sites": [
     {
@@ -896,7 +896,7 @@
    ]
   },
   "TX": {
-   "alerts": 6,
+   "alerts": 7,
    "alerts_error": "",
    "sites": [
     {
@@ -1006,7 +1006,7 @@
    ]
   },
   "FL": {
-   "alerts": 42,
+   "alerts": 41,
    "alerts_error": "",
    "sites": [
     {
@@ -1108,7 +1108,7 @@
    ]
   },
   "NC": {
-   "alerts": 34,
+   "alerts": 37,
    "alerts_error": "",
    "sites": [
     {
