@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T18:05:28.366179+00:00",
+ "at": "2026-11-25T19:06:41.503083+00:00",
  "states": {
   "TN": {
    "alerts": 5,
@@ -1006,7 +1006,7 @@
    ]
   },
   "FL": {
-   "alerts": 41,
+   "alerts": 42,
    "alerts_error": "",
    "sites": [
     {
@@ -1205,7 +1205,7 @@
      "feed": "https://www.wake.gov/rss.xml",
      "how": "the usual address",
      "posts": 10,
-     "error": "https://www.wake.gov/rss.xml: not readable XML (not well-formed (invalid token): line 1, column 0; after mending: not well-formed (invalid token): line 1, colum"
+     "error": ""
     }
    ]
   }
