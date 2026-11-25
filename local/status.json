@@ -1,8 +1,8 @@
 {
- "at": "2026-11-25T14:06:07.014902+00:00",
+ "at": "2026-11-25T15:05:19.226181+00:00",
  "states": {
   "TN": {
-   "alerts": 2,
+   "alerts": 3,
    "alerts_error": "",
    "sites": [
     {
@@ -145,7 +145,7 @@
      "feed": "https://www.hattiesburgms.com/feed/",
      "how": "listed on the homepage",
      "posts": 10,
-     "error": "https://www.hattiesburgms.com/feed/: TimeoutError: The read operation timed out"
+     "error": ""
     },
     {
      "name": "Biloxi",
@@ -496,7 +496,7 @@
    ]
   },
   "AR": {
-   "alerts": 2,
+   "alerts": 1,
    "alerts_error": "",
    "sites": [
     {
@@ -896,7 +896,7 @@
    ]
   },
   "TX": {
-   "alerts": 11,
+   "alerts": 5,
    "alerts_error": "",
    "sites": [
     {
@@ -1108,7 +1108,7 @@
    ]
   },
   "NC": {
-   "alerts": 34,
+   "alerts": 33,
    "alerts_error": "",
    "sites": [
     {
