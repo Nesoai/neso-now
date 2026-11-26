@@ -1,8 +1,8 @@
 {
- "at": "2026-11-26T11:05:20.561948+00:00",
+ "at": "2026-11-26T12:05:25.367153+00:00",
  "states": {
   "TN": {
-   "alerts": 6,
+   "alerts": 5,
    "alerts_error": "",
    "sites": [
     {
@@ -394,7 +394,7 @@
    ]
   },
   "AL": {
-   "alerts": 1,
+   "alerts": 0,
    "alerts_error": "",
    "sites": [
     {
@@ -496,7 +496,7 @@
    ]
   },
   "AR": {
-   "alerts": 7,
+   "alerts": 6,
    "alerts_error": "",
    "sites": [
     {
@@ -598,7 +598,7 @@
    ]
   },
   "GA": {
-   "alerts": 1,
+   "alerts": 2,
    "alerts_error": "",
    "sites": [
     {
@@ -1006,7 +1006,7 @@
    ]
   },
   "FL": {
-   "alerts": 27,
+   "alerts": 26,
    "alerts_error": "",
    "sites": [
     {
