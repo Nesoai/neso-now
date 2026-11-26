@@ -1,5 +1,5 @@
 {
- "at": "2026-11-26T09:05:24.623661+00:00",
+ "at": "2026-11-26T10:05:45.132311+00:00",
  "states": {
   "TN": {
    "alerts": 6,
@@ -419,7 +419,7 @@
      "feed": "https://www.huntsvilleal.gov/feed/",
      "how": "the usual address",
      "posts": 10,
-     "error": ""
+     "error": "https://www.huntsvilleal.gov/feed/: HTTPError: HTTP Error 503: Service Unavailable"
     },
     {
      "name": "Montgomery",
@@ -794,7 +794,7 @@
    ]
   },
   "MO": {
-   "alerts": 15,
+   "alerts": 14,
    "alerts_error": "",
    "sites": [
     {
@@ -1006,7 +1006,7 @@
    ]
   },
   "FL": {
-   "alerts": 29,
+   "alerts": 27,
    "alerts_error": "",
    "sites": [
     {
@@ -1108,7 +1108,7 @@
    ]
   },
   "NC": {
-   "alerts": 38,
+   "alerts": 40,
    "alerts_error": "",
    "sites": [
     {
