@@ -1,8 +1,8 @@
 {
- "at": "2026-11-27T05:05:17.858629+00:00",
+ "at": "2026-11-27T06:05:27.457393+00:00",
  "states": {
   "TN": {
-   "alerts": 11,
+   "alerts": 6,
    "alerts_error": "",
    "sites": [
     {
@@ -300,7 +300,7 @@
    ]
   },
   "CT": {
-   "alerts": 6,
+   "alerts": 5,
    "alerts_error": "",
    "sites": [
     {
@@ -348,7 +348,7 @@
      "site": "https://www.waterburyct.org/",
      "feed": "https://www.waterburyct.org/qcontent/NewsFeed.ashx?ChanID=3033",
      "how": "listed on the homepage",
-     "posts": 6,
+     "posts": 5,
      "error": ""
     },
     {
@@ -700,7 +700,7 @@
    ]
   },
   "LA": {
-   "alerts": 4,
+   "alerts": 3,
    "alerts_error": "",
    "sites": [
     {
@@ -1006,7 +1006,7 @@
    ]
   },
   "FL": {
-   "alerts": 20,
+   "alerts": 19,
    "alerts_error": "",
    "sites": [
     {
@@ -1108,7 +1108,7 @@
    ]
   },
   "NC": {
-   "alerts": 18,
+   "alerts": 16,
    "alerts_error": "",
    "sites": [
     {
